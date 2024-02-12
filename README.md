@@ -18,6 +18,6 @@ Small app to automatically process EDI files
 3. npm install
 4. npm run start:dev
 
-##How to send request (start processing)
-1. 1st option: Go to http://localhost:3001/api and click on Post "Execute" button
+## How to send request (start processing)
+1. 1st option: Go to Swagger (http://localhost:3001/api) and click on Post "Execute" button. Make sure app is running, otherwise Swagger won't open
 2. 2nd option: open Postman and send Post request to http://localhost:3001/prod 
