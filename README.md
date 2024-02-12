@@ -4,12 +4,13 @@ Small app to automatically process EDI files
 ## Prerequisites 
 1. Node.js install
 2. NPM / Yarn installed
-3. .env file with credentials 
 
 ## What is needed before running 
 1. Create 'edi-uploads' folder in project root folder
 2. Download all EDI files from GDrive
 3. Upload all EDI files into 'edi-uploads' folder
+4. Add .env file with credentials into project root folder
+
 
 ## How to run script
 1. git clone https://github.com/kashiev01/edi-processing.git
