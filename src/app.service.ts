@@ -182,7 +182,7 @@ export class AppService {
           Authorization: `Bearer ${this.prod_token}`,
         },
       });
-      return result;
+      return result.data;
     } catch (error) {
       return error.response.data;
     }
